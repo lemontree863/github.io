@@ -1,0 +1,9 @@
+**背景**
+----
+用户使用导入名单功能，上传了一个几十m的Excel，导致频繁Full gc，导致系统宕机了。
+
+![内存分析](https://lemontree863.github.io/2018/11/memory_analy.jpg)
+
+![内存分析2](https://lemontree863.github.io/2018/11/memory2.jpeg)
+
+通过看mat可以看到，因为创建了几万个对象导致内存耗尽，系统直接将应用kill了。
