@@ -1,3 +1,4 @@
 blogs list
 1. [n+1查询](https://lemontree863.github.io/2018/10/N+1%E6%9F%A5%E8%AF%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
 2. [记一次fullgc引起的宕机](https://lemontree863.github.io/2018/11/记一次fullgc引起的宕机)
+2. [如何查找cpu占用率高的那个线程](https://lemontree863.github.io/2018/11/如何查找cpu占用率高的那个线程)
