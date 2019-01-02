@@ -8,7 +8,7 @@ lombok是一个java类库，能够简化代码书写。
 3. 点击Install，完成安装。
 ![lombok安装成功](https://lemontree863.github.io/2019/1/image.png)
 
-4. 检查是否安装成功。在Eclipse的安装目录，我们能看到多了一个lombok.jar,并且在eclipse.ini文件中多了一行-javaagent，这样就能确认依据安装成功。
+4. 检查是否安装成功。在Eclipse的安装目录，我们能看到多了一个lombok.jar,并且在eclipse.ini文件中多了一行-javaagent，这样就能确认已经安装成功。
 
 ![eclipse安装目录](https://lemontree863.github.io/2019/1/eclipse_install_dir.jpeg)
 
