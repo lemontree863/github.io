@@ -3,22 +3,22 @@
 ```xml
         <!-- 不加hibernate-validator，执行UT会抛出异常 无法初始化类MybatisProperties-->
         <dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-		</dependency>
+	  <groupId>org.hibernate</groupId>
+	  <artifactId>hibernate-validator</artifactId>
+	</dependency>
 			
-		<dependency>  
+	<dependency>  
             <groupId>org.springframework.boot</groupId>  
             <artifactId>spring-boot-starter-test</artifactId>  
             <scope>test</scope>  
-	    </dependency>
+	</dependency>
 	    
 	    <!-- 数据库测试 -->
-	    <dependency>
-			<groupId>org.hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<scope>test</scope>
-		</dependency>
+	 <dependency>
+	   <groupId>org.hsqldb</groupId>
+	   <artifactId>hsqldb</artifactId>
+	   <scope>test</scope>
+	 </dependency>
 ```
 
 2. 准备测试需要的配置文件
