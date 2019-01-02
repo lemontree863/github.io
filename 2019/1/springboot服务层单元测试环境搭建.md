@@ -28,7 +28,7 @@
 说明下这几个配置文件的作用
 - application.properties ： springboot相关的配置
 - applicationContext.xml ： 用于配置service层的bean，主要是分为本模块的bean和其他模块的bean,配置上有所区别。
-```java
+```xml
 <!-- 本模块bean -->
 <bean id="xxService" class="com.xx.service.impl.XXServiceImpl"/>
 
@@ -43,6 +43,7 @@
     
     
 3. 代码相关
+
 ```java
 package com.xx.test;
 
