@@ -3,3 +3,4 @@ blogs list
 2. [记一次fullgc引起的宕机](https://lemontree863.github.io/2018/11/记一次fullgc引起的宕机)
 3. [如何查找cpu占用率高的那个线程](https://lemontree863.github.io/2018/11/如何查找cpu占用率高的那个线程)
 4. [在Eclipse安装lombok](https://lemontree863.github.io/2019/1/在Eclipse安装lombok)
+5. [数据库死锁产生原因排查](https://lemontree863.github.io/2019/1/数据库死锁产生原因排查)
