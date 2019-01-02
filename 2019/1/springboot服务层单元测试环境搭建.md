@@ -23,7 +23,7 @@
 
 2. 准备测试需要的配置文件
 
-![configfile](https://lemontree863.github.io/2019/1/configfile2.jpeg)
+![configfile](https://lemontree863.github.io/2019/1/cf.png)
 
 说明下这几个配置文件的作用
 - application.properties ： springboot相关的配置
