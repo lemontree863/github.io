@@ -26,6 +26,13 @@ maven打包源代码中的资源文件到classes目录
 				<include>**/*.xml</include>
 			</includes>
 		</resource>
+		<resource>
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*.xml</include>
+				<include>**/*.properties</include>
+			</includes>
+		</resource>
 	</resources>
 </build>
 ```
