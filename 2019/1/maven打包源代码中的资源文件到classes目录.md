@@ -16,41 +16,41 @@
 方法一：在pom.xml中添加下列代码
 ```xml
 <build>
-		<resources>
-			<resource>
-				<directory>src/main/java</directory>
-				<includes>
-					<include>**/*.xml</include>
-				</includes>
-			</resource>
-		</resources>
+	<resources>
+		<resource>
+			<directory>src/main/java</directory>
+			<includes>
+				<include>**/*.xml</include>
+			</includes>
+		</resource>
+	</resources>
 </build>
 ```
 
 方法二：使用maven-resources-plugin插件
 ```xml
 <plugin>
-				<artifactId>maven-resources-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>copy-xmls</id>
-						<phase>process-sources</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${basedir}/target/classes</outputDirectory>
-							<resources>
-								<resource>
-									<directory>${basedir}/src/main/java</directory>
-									<includes>
-										<include>**/*.xml</include>
-									</includes>
-								</resource>
-							</resources>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+	<artifactId>maven-resources-plugin</artifactId>
+	<executions>
+	<execution>
+		<id>copy-xmls</id>
+		<phase>process-sources</phase>
+		<goals>
+			<goal>copy-resources</goal>
+		</goals>
+		<configuration>
+			<outputDirectory>${basedir}/target/classes</outputDirectory>
+			<resources>
+				<resource>
+				<directory>${basedir}/src/main/java</directory>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
+				</resource>
+			</resources>
+		</configuration>
+	</execution>
+	</executions>
+</plugin>
 ```
 
