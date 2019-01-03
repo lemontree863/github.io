@@ -95,3 +95,5 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 ```
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```
+
+![gen](https://lemontree863.github.io/2019/1/gen.jpeg)
